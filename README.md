@@ -5,7 +5,13 @@ Django Dynamic Form は、ユーザーによるフォームの入力、選択、
 
 ## Installation
 
-1. `'dynamic_form'` を `INSTALLED_APPS` に追加します。
+1. pip を使いインストールします。
+
+    ```
+    pip install django-dynamic-form
+    ```
+
+2. `'dynamic_form'` を `INSTALLED_APPS` に追加します。
 
    ```python
    INSTALLED_APPS = [
@@ -14,7 +20,7 @@ Django Dynamic Form は、ユーザーによるフォームの入力、選択、
    ]
    ```
 
-2. dynamic_form の URLconf をプロジェクトの `urls.py` に追加します。
+3. dynamic_form の URLconf をプロジェクトの `urls.py` に追加します。
 
    ```python
    urlpatterns = [
@@ -23,7 +29,7 @@ Django Dynamic Form は、ユーザーによるフォームの入力、選択、
    ]
    ```
 
-3. HTML に script タグを追加します。
+4. HTML に script タグを追加します。
 
    ```html
    {% load static %}
