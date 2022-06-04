@@ -1,0 +1,7 @@
+include README.md
+include LICENSE
+recursive-include dynamic_form/static *
+recursive-include dynamic_form/templates *
+recursive-include docs *
+global-exclude __pycache__
+global-exclude *.py[co]
